@@ -1,4 +1,4 @@
-class repositories::puppetlabs {
+class puppetlabs_repositories::puppetlabs {
 
   case $osfamily {
     RedHat: {

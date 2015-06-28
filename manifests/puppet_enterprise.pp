@@ -1,4 +1,4 @@
-class repositories::puppet_enterprise {
+class puppetlabs_repositories::puppet_enterprise {
 
   $pe_version = '2.5'
   case $osfamily {
